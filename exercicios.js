@@ -30,3 +30,11 @@
 // reatribuindo, desta vez com dado do TIPO NUMBER
 //minhaLet = 100;
 //console.log(minhaLet); //100
+const nome = ('Clayton');
+const idade = ("29")
+const bebidaMaior = "cerveja";
+const bebidaMenor = "suco";
+
+const pedido = `${nome} diz: "por favor, quero beber 
+${idade >= 18 ? bebidaMaior : bebidaMenor}"`
+console.log(pedido)
